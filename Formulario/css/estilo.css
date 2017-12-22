@@ -1,0 +1,46 @@
+#cabecera{
+	border:1px solid red;
+	height:100px;
+	width:100%;
+}
+#contenedora{
+	border:1px solid black;
+	display:inline;
+	
+}
+#formulario{
+	float:left;
+	width:41%;
+	border:1px solid red;
+	height:385px;
+}
+
+#media{
+	width:58%;
+	heigth:50%;
+	float:right;
+	border:1px solid yellow;
+	display:inline;
+}
+form {
+  display: table;
+  margin: 0 auto;
+  width:40%;
+}
+
+form div {
+  display: table-row;
+}
+
+form label, form input {
+  display: table-cell;
+  margin-bottom: 30px;
+  
+}
+
+#foto{
+	display:block;
+	height:50%;
+	width:25%;
+}
+
