@@ -12,17 +12,21 @@ function jugar(){
 	for(var i = 2; i <= mitad && esPrimo == true; i++){
 		if(numero%i==0) esPrimo = false;
 	}
-	if(esPrimo)contador++;
-	else console.log("Tu puntuación: "+contador);
+	if(esPrimo){
+		contador++;
+		if(contador>10)
+		{
+		contador=10
+		}
+		window.alert("Tu puntuacion es: " +contador+ "\nEl numero primo acertado es: "+numero)
+	}else{ 
+		
+		window.alert("Tu puntuacion es: "+contador+"\nEl numero primo incorrecto es: "+numero)
+		contador=0
+	};
 }
 
-	/*puntuacion+=20	
-	if(puntuacion>100)
-	{
-	puntuacion=100
-	}
-	document.alert("Tu puntuacion es " +puntuacion)*/
-
+	
 </script>
 </head>
 <body>
